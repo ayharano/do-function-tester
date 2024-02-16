@@ -1,8 +1,17 @@
 [project]
 name = "do-function-tester"
 version = "2024.2.0"
+dependencies = [
+  "python-dotenv",
+  "requests",
+]
 
 [project.optional-dependencies]
 local = [
     "pre-commit"
+]
+
+[tool.setuptools]
+py-modules = [
+    "tester",
 ]

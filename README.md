@@ -5,6 +5,17 @@
 This project provides a small [DigitalOcean Function](https://docs.digitalocean.com/products/functions/)
 using Python to validate `blocking=false` functionality.
 
+# Project Configuration
+This project uses [the twelve-factor app](https://12factor.net/) methodology.
+
+Environment variables in this project can be stored using a `.env` (dot env) file.
+For initial setup, a sample is provided as [`.env.sample`](.env.sample).
+
+A description of each of the variables is provided as the following list.
+
+- `FUNCTION_URL`: the DigitalOcean Function URL to be called
+- `AUTHORIZATION_TOKEN`: a string value to be used as [the Functions REST API Authorization token](https://docs.digitalocean.com/products/functions/how-to/async-functions/#call-a-function-asynchronously-using-curl-and-the-rest-api)
+
 # Project Installation
 First, clone this repo:
 
