@@ -1,3 +1,5 @@
+.deployed
+
 # Created by https://www.toptal.com/developers/gitignore/api/python,macos,linux,windows,visualstudiocode,pycharm+all,vim
 # Edit at https://www.toptal.com/developers/gitignore?templates=python,macos,linux,windows,visualstudiocode,pycharm+all,vim
 
@@ -22,8 +24,6 @@
 .AppleDouble
 .LSOverride
 
-# Icon must end with two \r
-Icon
 
 # Thumbnails
 ._*
