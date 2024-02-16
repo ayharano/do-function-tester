@@ -3,3 +3,7 @@ packages:
     actions:
       - name: blocking_false_handler
         runtime: 'python:default'
+        limits:
+          timeout: 1000
+          memory: 128
+          logs: 5
