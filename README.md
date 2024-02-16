@@ -2,6 +2,8 @@
 
 > Code repository author: [Alexandre Harano](mailto:email@ayharano.dev)
 
+[![DigitalOcean Referral Badge](https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%203.svg)](https://www.digitalocean.com/?refcode=532177d7d8ec&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge)
+
 This project provides a small [DigitalOcean Function](https://docs.digitalocean.com/products/functions/)
 using Python to validate `blocking=false` functionality.
 
