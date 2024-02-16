@@ -7,3 +7,4 @@ packages:
           timeout: 1000
           memory: 128
           logs: 5
+        web: false
